@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  font-family: 'Chivo', sans-serif;
+  font-size: 18px;
+  background-image: url("../assets/mobile/image-host.jpg");
+  background-color: #121725;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-blend-mode: multiply;
+  overflow-x: hidden;
+}
+
+.container {
+  display:flex;
+  background-color: black;
+}
+
+.hero {
+
+  display: flex;
+  width: 132px;
+  align-items: center;
+}
+
+.info {
+  color: white;
+}
+.social {
+  display: flex;
+  display: flex;
+  flex-flow: row;
+  font-size: .7rem;
+  padding-left: 20px;
+  letter-spacing: 4px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
